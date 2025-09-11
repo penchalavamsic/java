@@ -1,3 +1,4 @@
+//Area of a rectangle (l*b)
 class Rectangle_Area{
 	public static void main(String args[]){
 		if(args.length<2){

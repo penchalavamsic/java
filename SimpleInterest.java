@@ -1,3 +1,4 @@
+//Simple Interest
 class SimpleInterest{
 	public static void main(String args[]){
 		double principle=Double.parseDouble(args[0]);
