@@ -10,6 +10,6 @@ class SumofSquare{
 					sum+=Math.pow(arr[i], 2);
 			}
 		}
-		System.out.println(sum);
+		System.out.println("Sum of Squares of odd indexes is "+sum);
 	}
 }
