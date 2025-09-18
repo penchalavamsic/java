@@ -11,5 +11,5 @@ class Parameterized{
 public static void main(String[] args) {
 	Parameterized p=new Parameterized(20, "Vamsi");
 	System.out.print(p.id+" "+p.name);
-}
+	}
 }
