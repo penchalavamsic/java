@@ -6,5 +6,7 @@ class MainBankStaticVar{
 		b.getDetails();
 		b.withdraw();
 		b.display();
+		Bank.interest(6.5); //calling static method without objects
+		b.display();
 	}
 }

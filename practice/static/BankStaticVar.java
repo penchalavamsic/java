@@ -28,4 +28,11 @@ class Bank{
 		System.out.println("****");
 		System.out.println(accno+" "+balance+" "+interest);
 	}
+
+	public static void interest(double newInterest){ //static method
+		System.out.println("********");
+		interest=newInterest;
+		System.out.println(interest);
+
+	}
 }
