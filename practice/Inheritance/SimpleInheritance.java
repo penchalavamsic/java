@@ -1,5 +1,5 @@
 //Simple usage of inheritance
-//Hierarichal inheritance
+//Hierarichal inheritance as  Animal is used by both Dog and cat
 class Animal{ //parent class
 	String a="in";
 	void sound(){
