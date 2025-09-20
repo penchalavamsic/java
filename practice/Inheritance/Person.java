@@ -14,7 +14,7 @@ class Person{
 class Employee extends Person{
 	int empId;
 	public void setData(String n, int a, int e){ //overloading with diff signatures
-		super.setData(n, a); //calling parent class
+		super.setData(n, a); //calling parent class method
 		empId=e;
 	}
 	@Override
