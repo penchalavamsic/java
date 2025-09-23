@@ -12,11 +12,12 @@ public class ArthimeticException{
             System.out.println("The answer is "+ans);
         } catch (Exception e) {
             System.err.println("Erro: Divison by zero is not possible");
+            e.printStackTrace(); //to print the reason and error happend line
         }
         finally{
             System.err.println("Program runs");
         }
-
+        
 
     }
 }
