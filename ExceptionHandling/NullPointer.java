@@ -1,4 +1,4 @@
-//Null poointer exception
+//Null pointer exception
 import java.util.*;
 public class NullPointer{
     public static void main(String[] args) {
