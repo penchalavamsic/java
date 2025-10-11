@@ -12,6 +12,7 @@ public class Sets{
             System.out.println(itr.next());
         }
         System.err.println("****");
+        //Linked hash set
 
         Set s1=new LinkedHashSet(); //with Insertion order
         s1.add(10);
