@@ -23,5 +23,11 @@ public class User_Objects{
      st.add(new Student("B",2,24));   
      st.add(new Student("C",3,25));   
      System.out.println(st);
+     Iterator itr=st.iterator();
+     while(itr.hasNext()){
+        Student s1=(Student)itr.next(); //creating a studnet object to print as collection
+        //printing only required items
+        System.out.println(s1.name+" "+s1.rollno);
+     }
     }
 }
