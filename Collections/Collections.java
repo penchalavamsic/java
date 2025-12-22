@@ -8,6 +8,10 @@ public class Collections{
         for(int i:l){
             System.out.println(i);
         }
+        //using iterator
+        Iterator i=l.iterator();//returns the object
+        while(i.hasNext())
+            System.out.println(i.next());
 
     }
 
