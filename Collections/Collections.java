@@ -5,12 +5,13 @@ public class Collections{
         l.add(10);
         l.add(20);
         l.add(30);
+        l.add(0,1);//by indexing
         for(int i:l){
             System.out.println(i);
         }
         //using iterator
         Iterator i=l.iterator();//returns the object
-        while(i.hasNext())
+        while(i.hasNext())//check next element
             System.out.println(i.next());
 
     }
