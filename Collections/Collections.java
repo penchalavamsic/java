@@ -9,6 +9,11 @@ public class Collections{
         for(int i:l){
             System.out.println(i);
         }
+        List<Integer> l1=new ArrayList<>();
+        l1.add(40);
+        l1.add(50);
+        l.addAll(l1);//adding another list
+        java.util.Collections.sort(l);//sorting
         //using iterator
         Iterator i=l.iterator();//returns the object
         while(i.hasNext())//check next element
