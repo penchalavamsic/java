@@ -10,5 +10,15 @@ public class Setss {
         values.add(50); //duplicate value
         for(int i:values)
             System.out.println(i);
+
+        Set<Integer> v=new TreeSet<>(); //sorted in ascending order
+        v.add(10);
+        v.add(20);
+        v.add(30);
+        v.add(40);
+        v.add(50);
+        v.add(50); //duplicate value
+        for(int j:v)
+            System.out.println(j);
     }
 }
