@@ -7,6 +7,7 @@ public class Mapss {
         m.put("3","C");
         for(String i:m.values()) //keyset returns the keys of the map
             System.out.println(i);
+        System.out.println(m.get("1"));//getting particular key value only 
         
     }
 }
